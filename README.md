@@ -108,8 +108,6 @@ Once the code completes, a folder named ```camera_parameters``` is created and y
 
 Show the calibration pattern to both cameras at the same time. If your calibration pattern is small or too far, you will get poor calibration. Keep the patterns very steady. Press SPACE when ready to take the frames.
 
-![image](https://user-images.githubusercontent.com/36071915/175029738-55a8532e-d7ae-4f78-ab20-12e01dcf1daa.png)
-
 The paired images will be saved in a new folder: ```frames_pair```.
 
 **Step4. Obtain Camera0 to Camera1 Rotation and Translation**
