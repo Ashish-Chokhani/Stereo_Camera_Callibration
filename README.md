@@ -90,8 +90,6 @@ Step1 will create ```frames``` folder and save calibration pattern frames. The n
 
 Show the calibration pattern to each camera. Don't move it too far away. When a frame is taken, move the pattern to a differnt position and try to cover different parts of the frame. Keep the pattern steady when the frame is taken.
 
-![image](https://user-images.githubusercontent.com/36071915/175025024-cf3000a7-daba-4721-a24e-d8d4550f6f83.png)
-
 **Step2. Obtain Intrinsic Camera Parameters**
 
 Step2 will open the saved frames and detect calibration pattern points. Visually check that the detected points are correct. If the detected points are poor, then press "s" on keyboard to skip this frame. Otherwise press any button to use the detected points.
