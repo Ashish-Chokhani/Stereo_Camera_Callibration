@@ -148,9 +148,8 @@ Make sure the corresponding camera parameters are also updated for your cameras 
 The 3D coordinate in each video frame is recorded in ```frame_p3ds``` parameter. Use this for real time application. The keypoints are indexed as below image. More keypoints can be added by including their ids at the top of the file. If keypoints are not found, then the keypoints are recorded as (-1, -1, -1). **Warning**: The code also saves keypoints for all previous frames. If you run the code for long periods, then you will run out of memory. To fix this, remove append calls to: ```kpts_3d, kpts_cam0. kpts_cam1```. When you press the ESC key, body keypoints detection will stop and three files will be saved to disk. These contain recorded 2D and 3D coordinates. 
 
 **Usage: Viewing 3D coordinates**  
-The ```bodypose3d.py``` program creates a 3D coordinates file: ```kpts_3d.dat```. To view the recorded 3D coordinates, simply call:
-```
-python show_3d_pose.py
+The ```depth_maps.py``` program creates a depth map of the environment.
+python3 depth_maps.py
 ```
 
 
@@ -161,6 +160,19 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 - Our first task is to select several points from both cameras to triangulate. For the images provided in the testing folder, the keypoints are hard coded.
 - The next step is to obtain the projection matrices. This is done simply by multiplying the camera matrix by the rotation and translation matrix.
 - All that is left is to triangulate each point using direct linear transform(DLT).
+
+## Depth Maps
+- Now that the cameras are fully calibrated and rectified, they can be used to generate depth maps.
+- Then, in a capture loop undistort the images using remap(), Convert them to grayscale with cvtColor(),
+- Compute the depth map with a StereoBM object.
+- When previewing the depth map, we need to scale it down to a visible range before showing it
+
+**Usage: Viewing Depth Maps**  
+The ```bodypose3d.py``` program creates a 3D coordinates file: ```kpts_3d.dat```. To view the recorded 3D coordinates, simply call:
+```
+python show_3d_pose.py
+```
+
 
 ## Video Demonstration
 
