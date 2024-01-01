@@ -178,5 +178,11 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 
 - Our first task is to select several points from both cameras to triangulate. For the images provided in the testing folder, the keypoints are hard coded.
 - The next step is to obtain the projection matrices. This is done simply by multiplying the camera matrix by the rotation and translation matrix.
-- All that is left is to triangulate each point using direct linear transform(DLT). Here I provide my code for DLT without explanation.
+- All that is left is to triangulate each point using direct linear transform(DLT).
+
+## References:
+
+[OpenCV camera calibration documentation:](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga91018d80e2a93ade37539f01e6f07de5)
+For a good theory on photogrammetry, watch the youtube lessons here: link
+For the workings of DLT: link
   
