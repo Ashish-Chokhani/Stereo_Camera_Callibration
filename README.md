@@ -153,7 +153,7 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 - The next step is to obtain the projection matrices. This is done simply by multiplying the camera matrix by the rotation and translation matrix.
 - All that is left is to triangulate each point using direct linear transform(DLT).
 
-## Depth Maps
+## Depth Maps and Stereo Vision
 - Now that the cameras are fully calibrated and rectified, they can be used to generate depth maps.
 - Then, in a capture loop undistort the images using remap(), Convert them to grayscale with cvtColor(),
 - Compute the depth map with a StereoBM object.
@@ -163,6 +163,7 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 The ```depth_maps.py``` program creates a depth map of the environment.
 ```
 python3 depth_maps.py
+python3 stereoVision.py
 ```
 
 ## Denoising with deep learning
