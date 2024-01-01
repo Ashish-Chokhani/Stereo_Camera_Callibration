@@ -1,8 +1,3 @@
-# How to Run
-
-1. git clone
-2. pip install requirements.txt
-
 ## StereoVision
 
 1. Run python3 stereoVision.py
