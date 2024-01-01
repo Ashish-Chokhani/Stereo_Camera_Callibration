@@ -134,9 +134,9 @@ As final step, Step5 shows coordinate axes shifted 60cm forward in both camera v
 
 If you see it in camera0 and not camera1, then change ```_zshift``` to some value that you know both cameras can see. 
 
- **Real time 3D body pose estimation using MediaPipe**
+ ## Real time 3D body pose estimation using MediaPipe**
 
-This is a demo on how to obtain 3D coordinates of body keypoints using MediaPipe and two calibrated cameras. Two cameras are required as there is no way to obtain global 3D coordinates from a single camera.
+I have added a demo on how to obtain 3D coordinates of body keypoints using MediaPipe and two calibrated cameras. Two cameras are required as there is no way to obtain global 3D coordinates from a single camera.
 
 ![input1](media/cam0_kpts.gif "input1") ![input2](media/cam1_kpts.gif "input2") 
 ![output](media/pose2.gif "output")
