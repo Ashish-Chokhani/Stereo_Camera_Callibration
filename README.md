@@ -132,9 +132,7 @@ Step5 code will do all of this and save ```camera0_rot_trans.dat``` and ```camer
 
 As final step, Step5 shows coordinate axes shifted 60cm forward in both camera views. Since I know that the axes are shifted 60cm forward, I can check it using a tape set to 60cm. You can see that both cameras are in good alignment. This is however not a good way to check your calibration. You should try to aim for RMSE < 0.5.
 
-![image](https://user-images.githubusercontent.com/36071915/175036378-9ec45563-a98a-4fc6-a838-15f9c8dca1dc.png)
-
-If you do not see image like this, then something has gone wrong. If you see it in camera0 and not camera1, then change ```_zshift``` to some value that you know both cameras can see. 
+If you see it in camera0 and not camera1, then change ```_zshift``` to some value that you know both cameras can see. 
 
  
 
