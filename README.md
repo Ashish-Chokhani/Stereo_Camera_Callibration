@@ -171,7 +171,8 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 - [Depth Calculation:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2FCallibration%5FDepth%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
 - [3D Body Pose:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2F3D%5Fbody%5Fpose%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
-- 
+
+Again don't forget to checkout this amazing [report](https://github.com/Ashish-Chokhani/Stereo_Camera_Callibration/blob/main/MR_Project.pdf) if you are interested in knowing the maths behind above tasks :)
 
 ## References:
 
