@@ -1,7 +1,3 @@
-## StereoVision
-
-1. Run python3 stereoVision.py
-
 # What this is
 Stereo camera calibration script written in python. Uses OpenCV primarily. 
 
