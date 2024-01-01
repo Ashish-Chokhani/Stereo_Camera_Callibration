@@ -169,6 +169,17 @@ The ```depth_maps.py``` program creates a depth map of the environment.
 python3 depth_maps.py
 ```
 
+## Denoising with deep learning
+- Image Enhancement i.e. removing random noise from the image is highly desired in computer vision.
+- Autoencoder is an appropriate consideration specifically due to its application in Denoising
+ -It has great potential in the feature extraction and data component understanding
+- Data is corrupted in some manner through the addition of random noise, and the model is trained to predict the original uncorrupted data.
+
+**Usage: Denoising images**  
+The ```depth_maps.py``` program creates a depth map of the environment.
+```
+python3 depth_maps.py
+```
 
 ## Video Demonstration
 
