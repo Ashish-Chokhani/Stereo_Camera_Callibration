@@ -1,3 +1,9 @@
+# Author: Ashish Chokhani
+# Course Title: Mobile Robotics
+# Roll No: 2021102016
+
+---
+
 # What this is
 Stereo camera calibration script written in python. Uses OpenCV primarily. 
 
