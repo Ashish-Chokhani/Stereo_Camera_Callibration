@@ -171,5 +171,5 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 
 - [OpenCV camera calibration documentation:](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga91018d80e2a93ade37539f01e6f07de5)
 - For a good theory on photogrammetry, watch the youtube lessons [here:](https://www.youtube.com/watch?v=_mOG_lpPnpY&list=PLgnQpQtFTOGRsi5vzy9PiQpNWHjq-bKN1)
-For the workings of [DLT:](https://www.cs.cmu.edu/~16385/s17/Slides/11.4_Triangulation.pdf)
+- For the workings of [DLT:](https://www.cs.cmu.edu/~16385/s17/Slides/11.4_Triangulation.pdf)
   
