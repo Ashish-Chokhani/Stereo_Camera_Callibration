@@ -2,11 +2,6 @@
 
 1. Run python3 stereoVision.py
 
-## depth_maps 
-
-1. Run python3 depth_maps.py
-2. To quit press 'q'
-
 # What this is
 Stereo camera calibration script written in python. Uses OpenCV primarily. 
 
