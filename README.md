@@ -31,8 +31,6 @@ Stereo camera calibration script written in python. Uses OpenCV primarily.
 # Why stereo calibrate two cameras
 Allows you to obtain 3D points through triangulation from two camera views.
 
-I wrote a [blog post](https://temugeb.github.io/opencv/python/2021/02/02/stereo-camera-calibration-and-triangulation.html) which turned out to be more popular than I expected. But it is a long blog post and some people just want the code. So here it is. Follow the instructions below and you should get working stereo camera calibration.
-
 # Setup
 
 Clone the repository to your PC. Then navigate to the folder in your terminal. Also print out a calibration pattern. Make sure it is as flat as you can get it. Small warps in the calibration pattern results in very poor calibration. Also, the calibration pattern should be properly sized so that both cameras can see it clearly at the same time. Checkerboards can be generated [here](https://calib.io/pages/camera-calibration-pattern-generator).
