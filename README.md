@@ -128,31 +128,13 @@ R and T alone are not enough to triangulate a 3D point. We need to define a worl
 
 Thus, the world origin to camera0 rotation is identity matrix and translation is a zeros vector. Then R, T obtained from previous step becomes rotation and translation from world origin to camera1. Practically what this means is that your 3D triangulated points will be with respect to the coordinate systemn sitting behind your camera0 lens, as shown above. 
 
-Step5 code will do all of this and save ```camera0_rot_trans.dat``` and ```camera1_rot_trans.dat``` in ```camera_parameters``` folder. This completes stereo calibration. You get intrinsic and extrinsic parameters for both cameras. If you want to see how to use these to obtain 3D triangulation, please check my other repositories (i.e [bodypose3d](https://github.com/TemugeB/bodypose3d)).
+Step5 code will do all of this and save ```camera0_rot_trans.dat``` and ```camera1_rot_trans.dat``` in ```camera_parameters``` folder. This completes stereo calibration. You get intrinsic and extrinsic parameters for both cameras.
 
 As final step, Step5 shows coordinate axes shifted 60cm forward in both camera views. Since I know that the axes are shifted 60cm forward, I can check it using a tape set to 60cm. You can see that both cameras are in good alignment. This is however not a good way to check your calibration. You should try to aim for RMSE < 0.5.
 
 ![image](https://user-images.githubusercontent.com/36071915/175036378-9ec45563-a98a-4fc6-a838-15f9c8dca1dc.png)
 
 If you do not see image like this, then something has gone wrong. If you see it in camera0 and not camera1, then change ```_zshift``` to some value that you know both cameras can see. 
-
-**Optional**
-
-If you must define a different world space origin from camera0, you can uncomment the code in OPTIONAL section. In this example, I define a world space origin using one of the calibration pair frames. This defines a world space origin as shown below. Note that the Z axis points into the checkerboard. 
-
-![image](https://user-images.githubusercontent.com/36071915/175038880-52ed6ce9-401e-441e-b0a3-fbff4c87f09a.png)
-
-You can also replace ```R_W0``` and ```T_W0``` to any rotation and translation for camera0, calculated some other way. This step is easier than you think. 
-
-Finally, two additional extrinsic files will be created, with respect to a world origin:
-```world_to_camera0_rot_trans.dat``` and ```world_to_camera1_rot_trans.dat```. These paired with the intrinsic parameters can also be used for triangulation. In this case, the 3D triangulated points will be with respect to the coordinate space defined by the calibration pattern. 
-
-**Bonus**
-
-My coding partner came looking for food. Enjoy my hamster, Milky, whose contribution to this package include distracting me, climbing up my leg and running on the table looking for food.
-
-![image](https://user-images.githubusercontent.com/36071915/175040471-e5636e11-a796-4844-a20d-8d7387332b52.png)
-
 
  
 
