@@ -149,6 +149,7 @@ The 3D coordinate in each video frame is recorded in ```frame_p3ds``` parameter.
 
 **Usage: Viewing 3D coordinates**  
 The ```depth_maps.py``` program creates a depth map of the environment.
+```
 python3 depth_maps.py
 ```
 
