@@ -3,13 +3,6 @@
 1. git clone
 2. pip install requirements.txt
 
-
-## Calibration of Camera
-
-1. Run python3 calib.py calibration_settings.yaml
-2. Now you can use the checkerboard to calibrate camera
-3. With this you will get the intrinsic and extrensic parameters 
-
 ## StereoVision
 
 1. Run python3 stereoVision.py
@@ -18,12 +11,6 @@
 
 1. Run python3 depth_maps.py
 2. To quit press 'q'
-
-## showbodypose and BodyPose
-
-1. Run python3 bodypose.py camera1 camera2  (camera1 -> 1st camera number camera2 -> 2nd camera number ) 
-2. run ls /dev/video* to get camera number when connected
-3. To view run python3 show_3d_pose.py
 
 # What this is
 Stereo camera calibration script written in python. Uses OpenCV primarily. 
@@ -182,7 +169,7 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 
 ## References:
 
-[OpenCV camera calibration documentation:](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga91018d80e2a93ade37539f01e6f07de5)
-For a good theory on photogrammetry, watch the youtube lessons here: link
-For the workings of DLT: link
+- [OpenCV camera calibration documentation:](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga91018d80e2a93ade37539f01e6f07de5)
+- For a good theory on photogrammetry, watch the youtube lessons [here:](https://www.youtube.com/watch?v=_mOG_lpPnpY&list=PLgnQpQtFTOGRsi5vzy9PiQpNWHjq-bKN1)
+For the workings of [DLT:](https://www.cs.cmu.edu/~16385/s17/Slides/11.4_Triangulation.pdf)
   
