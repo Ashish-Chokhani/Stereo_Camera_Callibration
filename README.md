@@ -172,5 +172,11 @@ python show_3d_pose.py
 ```
 
 
+## Stereo Triangulation
 
+We are now ready to triangulate pixel coordinates from two frames into 3D coordinates. As noted in the previous section, by selecting R1 = eye(3) and T1 = zeros(3), our triangulated points will measured from the position and orientation of camera #1.
 
+- Our first task is to select several points from both cameras to triangulate. For the images provided in the testing folder, the keypoints are hard coded.
+- The next step is to obtain the projection matrices. This is done simply by multiplying the camera matrix by the rotation and translation matrix.
+- All that is left is to triangulate each point using direct linear transform(DLT). Here I provide my code for DLT without explanation.
+  
