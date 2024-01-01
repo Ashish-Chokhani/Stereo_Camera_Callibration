@@ -176,9 +176,9 @@ python3 depth_maps.py
 - Data is corrupted in some manner through the addition of random noise, and the model is trained to predict the original uncorrupted data.
 
 **Usage: Denoising images**  
-The ```depth_maps.py``` program creates a depth map of the environment.
+The ```denoise.py``` program first adds a random noise to image and then denoises it.
 ```
-python3 depth_maps.py
+python3 denoise.py
 ```
 
 ## Video Demonstration
