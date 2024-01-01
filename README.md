@@ -162,6 +162,17 @@ We are now ready to triangulate pixel coordinates from two frames into 3D coordi
 - The next step is to obtain the projection matrices. This is done simply by multiplying the camera matrix by the rotation and translation matrix.
 - All that is left is to triangulate each point using direct linear transform(DLT).
 
+## Video Demonstration
+
+- [Depth Map:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2FDepth%5FMap%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
+- [Callibration_Depth:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2FCallibration%5FDepth%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
+- [Depth Calculation:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2FCallibration%5FDepth%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
+- [3D Body Pose:](https://iiitaphyd-my.sharepoint.com/personal/umang_s_students_iiit_ac_in/_layouts/15/stream.aspx?id=%2Fpersonal%2Fumang%5Fs%5Fstudents%5Fiiit%5Fac%5Fin%2FDocuments%2F3D%5Fbody%5Fpose%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+- 
+
 ## References:
 
 - [OpenCV camera calibration documentation:](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga91018d80e2a93ade37539f01e6f07de5)
